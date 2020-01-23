@@ -1,14 +1,14 @@
 
 body {
-    background-color: lightblue;
+    background-color: crimson;
   }
   
   h1 {
-    color: blue;
+    color: cornsilk;
     text-align: center;
   }
   
   p {
-    font-family: verdana;
-    font-size: 20px;
+    font-family: Verdana;
+    font-size: 30px;
   }
