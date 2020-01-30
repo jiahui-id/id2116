@@ -11,6 +11,10 @@ body {
     font-size: 60px;
   }
   
+  img{
+    align: center;
+  }
+  
   p1 {
     color:rgb(245,245,245);
     text-align: center;
