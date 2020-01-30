@@ -16,6 +16,7 @@ body {
     text-align: center;
     font-family: 'gill sans';
     font-size: 20px;
+    padding: 70px;
   }
 
   h2 {
@@ -32,13 +33,10 @@ body {
     font-size: 20px;
   }
 
-  h3{
+  p2{
     color:rgb(245,245,245);
-    text-align: center;
+    text-align: left;
     font-family: 'Gill Sans';
     font-size:13px;
-  }
-
-  p{
     border-style: outset;
   }
