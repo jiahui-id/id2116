@@ -1,6 +1,6 @@
 
 body {
-    background-color:#262626;
+    background-color:rgb(38, 38, 38);
   }
   
   h1 {
@@ -14,5 +14,19 @@ body {
     color: cornsilk;
     text-align: center;
     font-family: Verdana;
+    font-size: 20px;
+  }
+
+  h2 {
+    color: cornsilk;
+    text-align: left;
+    font-family: verdana;
+    font-size: 30px;
+  }
+
+  ul{
+    color: cornsilk;
+    text-align: left;
+    font-family: verdana;
     font-size: 20px;
   }
