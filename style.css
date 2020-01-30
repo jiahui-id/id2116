@@ -11,7 +11,11 @@ body {
     font-size: 60px;
   }
   
-  p {
+  img{
+    align: center;
+  }
+
+  p1 {
     color:rgb(245,245,245);
     text-align: center;
     font-family: 'gill sans';
@@ -26,11 +30,25 @@ body {
     font-size: 25px;
   }
 
+  p2 {
+    color:rgb(245,245,245);
+    text-align: left;
+    font-family: 'gill sans';
+    font-size: 20px;
+  }
+  
   ul{
     color:rgb(245,245,245);
     text-align: left;
     font-family: 'gill sans';
     font-size: 20px;
+  }
+
+  h3 {
+    color:rgb(245,245,245);
+    text-align: left;
+    font-family: 'gill sans';
+    font-size: 25px;
   }
 
   p2{
