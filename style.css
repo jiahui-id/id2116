@@ -4,29 +4,41 @@ body {
   }
   
   h1 {
-    color: cornsilk;
+    color: rgb(245,245,245);
     text-align: center;
-    font-family: Verdana;
+    font-family: 'Gill Sans';
+    font-style: bold;
     font-size: 60px;
   }
   
   p {
-    color: cornsilk;
+    color:rgb(245,245,245);
     text-align: center;
-    font-family: Verdana;
+    font-family: 'gill sans';
     font-size: 20px;
   }
 
   h2 {
-    color: cornsilk;
+    color:rgb(245,245,245);
     text-align: left;
-    font-family: verdana;
-    font-size: 30px;
+    font-family: 'gill sans';
+    font-size: 25px;
   }
 
   ul{
-    color: cornsilk;
+    color:rgb(245,245,245);
     text-align: left;
-    font-family: verdana;
+    font-family: 'gill sans';
     font-size: 20px;
+  }
+
+  h3{
+    color:rgb(245,245,245);
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-size:13px;
+  }
+
+  p{
+    border-style: outset;
   }
