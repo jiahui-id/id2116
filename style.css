@@ -1,10 +1,10 @@
 
 body {
-    background-color:white;
+    background-color: rgb(38,38,38);
   }
   
   h1 {
-    color: rgb(38,38,38);
+    color: rgb(245,245,245);
     text-align: center;
     font-family: 'Gill Sans';
     font-style: bold;
@@ -16,12 +16,10 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  div {
-    margin: 70px;
-  }
-
+  
   p1 {
-    color:rgb(38,38,38);
+    margin: 70px;
+    color:rgb(245,245,245);
     text-align: center;
     font-family: 'gill sans';
     font-size: 20px;
@@ -29,28 +27,28 @@ body {
   }
 
   h2 {
-    color:rgb(38,38,38);
+    color:rgb(245,245,245);
     text-align: left;
     font-family: 'gill sans';
     font-size: 25px;
   }
   
   ul{
-    color:rgb(38,38,38);
+    color:rgb(245,245,245);
     text-align: left;
     font-family: 'gill sans';
     font-size: 20px;
   }
 
   h3 {
-    color:rgb(38,38,38);
+    color:rgb(245,245,245);
     text-align: left;
     font-family: 'gill sans';
     font-size: 25px;
   }
 
   p2{
-    color:rgb(38,38,38);
+    color:rgb(245,245,245);
     text-align: left;
     font-family: 'Gill Sans';
     font-size:20px;
