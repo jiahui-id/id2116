@@ -1,4 +1,4 @@
-.top {
+.header {
   background-color: rgb(245,245,245);
 }
 
@@ -58,6 +58,6 @@
     border-style: outset;
   }
 
-.bottom {
+.footer {
   background-color: rgb(245,245,245);
   }
