@@ -1,15 +1,9 @@
 .top {
-  box-sizing: border-box;
-  height:20vh;
-  width:100%;
-  background: rgb(245,245,245);
+  background-color: rgb(245,245,245);
 }
 
 .middle {
-  box-sizing: content-box;
-  height:60vh;
-  width: 100%;
-  background: rgb(38,38,38);
+  background-color: rgb(38,38,38);
 }
 
   h1 {
@@ -65,8 +59,5 @@
   }
 
 .bottom {
-  box-sizing: border-box;
-  height:20vh;
-  width:100%;
-  background: rgb(245,245,245);
+  background-color: rgb(245,245,245);
   }
