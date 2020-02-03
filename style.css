@@ -1,20 +1,14 @@
-.top {
-  height:15vh;
-  width: 100%;
+.top, .bottom {
   background: rgb(245,245,245);
 }
 
 .middle {
-  height:70vh;
+  height:50%;
   width: 100%;
   background: rgb(38,38,38);
 }
 
-.bottom {
-  height:15vh;
-  width: 100%;
-  background: rgb(245,245,245);
-}
+
 
   h1 {
     color: rgb(245,245,245);
