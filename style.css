@@ -1,8 +1,21 @@
+.top {
+  height:15vh;
+  width: 100%;
+  color: rgb (245,245,245);
+}
 
-body {
-    background-color: rgb(38,38,38);
-  }
-  
+.middle {
+  height:70vh;
+  width: 100%;
+  color: rgb (38,38,38);
+}
+
+.bottom {
+  height:15vh;
+  width: 100%;
+  color: rgb (245,245,245);
+}
+
   h1 {
     color: rgb(245,245,245);
     text-align: center;
