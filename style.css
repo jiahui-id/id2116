@@ -1,5 +1,6 @@
-.top, .bottom {
-  padding: 20px;
+.top {
+  height:20vh;
+  width:100%;
   background: rgb(245,245,245);
 }
 
@@ -8,8 +9,6 @@
   width: 100%;
   background: rgb(38,38,38);
 }
-
-
 
   h1 {
     color: rgb(245,245,245);
@@ -61,4 +60,10 @@
     font-family: 'Gill Sans';
     font-size:20px;
     border-style: outset;
+  }
+
+.bottom {
+  height:20vh;
+  width:100%;
+  background: rgb(245,245,245);
   }
