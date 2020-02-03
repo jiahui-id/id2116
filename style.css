@@ -1,9 +1,10 @@
 .top, .bottom {
+  padding: 20px;
   background: rgb(245,245,245);
 }
 
 .middle {
-  height:50%;
+  height:60vh;
   width: 100%;
   background: rgb(38,38,38);
 }
