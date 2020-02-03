@@ -1,4 +1,5 @@
 .header {
+  margin: 0px;
   height: 20vh;
   background-color: rgb(245,245,245);
 }
@@ -9,25 +10,27 @@
 
   h1 {
     color: rgb(245,245,245);
-    text-align: center;
+    text-align: left;
     font-family: 'Gill Sans';
     font-style: bold;
     font-size: 60px;
+    float: left
   }
   
   img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float: right;
+    width: 40%;
   }
   
   p1 {
     margin: 70px;
     color:rgb(245,245,245);
-    text-align: center;
+    text-align: left;
     font-family: 'gill sans';
     font-size: 20px;
     padding: 70px;
+    float: left
   }
 
   h2 {
@@ -51,7 +54,7 @@
     font-size: 25px;
   }
 
-  p2{
+  p2 {
     color:rgb(245,245,245);
     text-align: left;
     font-family: 'Gill Sans';
@@ -60,6 +63,7 @@
   }
 
 .footer {
+  margin: 0px;
   height: 20vh;
   background-color: rgb(245,245,245);
   }
