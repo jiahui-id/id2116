@@ -28,11 +28,13 @@ html{
   text-transform: uppercase;
   font-weight: 300;
   opacity: 50%;
+  color: #e2e2e2;
 }
 
 .portfolio-description h1{
   font: helvetica;
   font-size: 35px;
   font-style: bold;
+  color: #e2e2e2;
 }
 
