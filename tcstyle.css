@@ -5,8 +5,22 @@
   }
   
   html{
-    font-size: 20px;
-    font-family: 'Optima';
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
     background: #202020;
     color: #e2e2e2;
+  }
+
+  .homepage h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .nav-text{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 3px;
+    text-align: center;
   }
