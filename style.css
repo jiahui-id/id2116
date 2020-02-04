@@ -1,65 +1,65 @@
-.header {
-  margin: 0px;
-  height: 20vh;
-  background-color: rgb(245,245,245);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.middle {
-  background-color: rgb(38,38,38);
+html{
+  font-size: 20px;
+  font-family: 'Optima';
+  background: #202020;
+  color: #e2e2e2;
 }
 
-  h1 {
-    color: rgb(245,245,245);
-    text-align: left;
-    font-family: 'Gill Sans';
-    font-style: bold;
-    font-size: 60px;
-    float: left
-  }
-  
-  img {
-    display: block;
-    float: right;
-    width: 40%;
-  }
-  
-  p1 {
-    margin: 70px;
-    color:rgb(245,245,245);
-    text-align: left;
-    font-family: 'gill sans';
-    font-size: 20px;
-    padding: 70px;
-    float: left
-  }
+.portfolio{
+  margin-top: 100px;
+  margin-bottom: 80px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
 
-  h2 {
-    color:rgb(245,245,245);
-    text-align: left;
-    font-family: 'gill sans';
-    font-size: 25px;
-    float: bottom
-  }
-  
-  ul{
-    color:rgb(245,245,245);
-    text-align: left;
-    font-family: 'gill sans';
-    font-size: 20px;
-    float: bottom
-  }
+.portfolio-img{
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
 
-  h3 {
-    color:rgb(245,245,245);
-    text-align: left;
-    font-family: 'gill sans';
-    font-size: 25px;
-    float: bottom
-  }
+.portfolio-description h6{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 300;
+  opacity: 50%;
+  color: #e2e2e2;
+}
 
+.portfolio-description h1{
+  font: helvetica;
+  font-size: 35px;
+  font-style: bold;
+  color: #e2e2e2;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.portfolio-description p{
+  text-align: justify;
+  opacity: 90%;
+}
+.section-heading{
+  text-align: left;
+  margin-top: 20px;
+}
 
-.footer {
-  margin: 0px;
-  height: 20vh;
-  background-color: rgb(245,245,245);
-  }
+.section-heading h1{
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  opacity: 80%;
+}
+
+.strengths-text{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 3px;
+  text-align: center;
+}
