@@ -14,15 +14,15 @@ html{
 .portfolio{
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
 
 .portfolio-img{
   display: block;
   width: 50%;
   float: left;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .portfolio-description h6{
@@ -38,9 +38,13 @@ html{
   font-size: 35px;
   font-style: bold;
   color: #e2e2e2;
-  margin: 5px;
+  margin-top: 7px;
+  margin-bottom: 5px;
 }
-
+.portfolio-description p{
+  text-align: justify;
+  opacity: 90%;
+}
 .section-heading{
   text-align: left;
   margin-top: 20px;
