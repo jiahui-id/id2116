@@ -13,17 +13,19 @@ html{
 
 .portfolio{
   margin-top: 100px;
-  margin-bottom: 80px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .portfolio-img{
   display: block;
-  float: left;
   margin-right: 5px;
 }
 
+.portfolio-description{
+  margin-left: 10px;
+}
 .portfolio-description h6{
   font-size: 15px;
   text-transform: uppercase;
@@ -61,5 +63,5 @@ html{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
   grid-gap: 3px;
-  text-align: center;
+  text-align: left;
 }
