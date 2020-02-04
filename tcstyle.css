@@ -5,7 +5,7 @@
   }
   
   html{
-    font-size: 10px;
+    font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     background: #202020;
     color: #e2e2e2;
@@ -14,7 +14,9 @@
   .homepage h1{
     font-size: 40px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
   }
   
   .nav-text{
@@ -23,4 +25,6 @@
     grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
     grid-gap: 3px;
     text-align: center;
+    color: #e2e2e2;
+    text-decoration: none;
   }

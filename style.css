@@ -13,9 +13,9 @@ html{
 
 .portfolio{
   margin-top: 100px;
-  margin-bottom: 80px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .portfolio-img{
@@ -23,6 +23,9 @@ html{
   margin-right: 5px;
 }
 
+.portfolio-description{
+  margin-left: 30px;
+}
 .portfolio-description h6{
   font-size: 15px;
   text-transform: uppercase;
