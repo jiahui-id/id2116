@@ -1,29 +1,36 @@
+.header {
+  margin: 0px;
+  height: 20vh;
+  background-color: rgb(245,245,245);
+}
 
-body {
-    background-color: rgb(38,38,38);
-  }
-  
+.middle {
+  background-color: rgb(38,38,38);
+}
+
   h1 {
     color: rgb(245,245,245);
-    text-align: center;
+    text-align: left;
     font-family: 'Gill Sans';
     font-style: bold;
     font-size: 60px;
+    float: left
   }
   
   img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    float: right;
+    width: 40%;
   }
   
   p1 {
     margin: 70px;
     color:rgb(245,245,245);
-    text-align: center;
+    text-align: left;
     font-family: 'gill sans';
     font-size: 20px;
     padding: 70px;
+    float: left
   }
 
   h2 {
@@ -31,6 +38,7 @@ body {
     text-align: left;
     font-family: 'gill sans';
     font-size: 25px;
+    float: bottom
   }
   
   ul{
@@ -38,6 +46,7 @@ body {
     text-align: left;
     font-family: 'gill sans';
     font-size: 20px;
+    float: bottom
   }
 
   h3 {
@@ -45,12 +54,12 @@ body {
     text-align: left;
     font-family: 'gill sans';
     font-size: 25px;
+    float: bottom
   }
 
-  p2{
-    color:rgb(245,245,245);
-    text-align: left;
-    font-family: 'Gill Sans';
-    font-size:20px;
-    border-style: outset;
+
+.footer {
+  margin: 0px;
+  height: 20vh;
+  background-color: rgb(245,245,245);
   }
