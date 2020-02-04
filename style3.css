@@ -9,6 +9,7 @@ body {
     font-size: 30px;
   }
 
+  
   h1 {
     color: #e2e2e2;
     text-align: left;
@@ -42,4 +43,12 @@ body {
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+  }
+  
+  nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px 
   }
