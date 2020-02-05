@@ -8,7 +8,7 @@
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     background: #202020;
-    color: #e2e2e2;
+    color: rgb(38,38,38);
   }
 
   .column {
@@ -21,27 +21,14 @@
   .homepage h1{
     font-size: 40px;
     text-transform: uppercase;
-    margin-top: 30px;
-    margin-bottom: 15px;
     text-align: center;
   }
   
   .nav-text a {
-    margin-top: 10px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(5px, 1fr));
     grid-gap: 3px;
     text-align: center;
-    color: rgb(245,245,245);
+    color: rgb(38,38,38);
     text-decoration: none;
-  }
-
-  .jiahui-img{
-      margin-left: 50px;
-      margin-right: 200px;
-  }
-
-  .shiehchih-img{
-      margin-left: 200px;
-      margin-right: 50px;
   }
