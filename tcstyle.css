@@ -32,7 +32,7 @@
     grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
     grid-gap: 3px;
     text-align: center;
-    color: #e2e2e2;
+    color: rgb(245,245,245);
     text-decoration: none;
   }
 
