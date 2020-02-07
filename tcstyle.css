@@ -26,8 +26,8 @@
   }
   
   .second-row a {
-    float: center;
-    display: block;
+    float: left;
+    display: inline-block;
     color: rgb(38,38,38);
     text-align: center;
     padding: 14px 16px;
