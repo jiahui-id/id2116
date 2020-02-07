@@ -25,10 +25,14 @@
     padding-top: 10px;
   }
   
+  .second-row {
+    overflow: hidden;
+    background-color: rgb(245,245,245);
+  }
+
   .second-row a {
     float: left;
     display: block;
-    background-color: rgb(245,245,245);
     color: rgb(38,38,38);
     text-align: center;
     padding: 14px 16px ;
