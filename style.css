@@ -63,7 +63,9 @@ html{
   text-align: left;
 }
 
-.p1{
+.top-row p1{
   color: rgb(245,245,245);
-  font-size: 50px;
+  font-size: 20px;
+  margin-top:10px;
+  margin-bottom: 10px;
 }
