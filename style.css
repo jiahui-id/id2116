@@ -65,7 +65,13 @@ html{
 
 .top-rowp1{
   color: rgb(245,245,245);
-  font-size: 20px;
-  margin-top:10px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  padding-top:10px;
+  padding-bottom: 10px;
 }
+
+.bottom-rowp1{
+  color: rgb(245,245,245);
+  font-size: 30px;
+  padding-top:10px;
+  padding-bottom: 10px;
