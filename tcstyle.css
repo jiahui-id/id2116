@@ -28,11 +28,10 @@
   .second-row a {
     float: left;
     display: block;
+    background-color: rgb(245,245,245);
     color: rgb(38,38,38);
     text-align: center;
     padding: 14px 16px ;
-    padding-left: 130px;
-    padding-right: 5px;
     text-decoration: none;
   }
 
