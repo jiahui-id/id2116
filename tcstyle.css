@@ -26,11 +26,14 @@
   }
   
   .second-row a {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(5px, 1fr));
-    grid-gap: 3px;
-    text-align: center;
+    float: center;
+    display: block;
     color: rgb(38,38,38);
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding-bottom: 10px;
+  }
+
+  .second-row a:hover {
+    color: black;
   }
