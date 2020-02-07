@@ -11,8 +11,18 @@ html{
   color: #e2e2e2;
 }
 
+.top-rowp1{
+  color: rgb(245,245,245);
+  font-size: 30px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.middle-row{
+  padding: 10px 10px 10px 10px;
+}
 .column {
-  float: left;
+  float: right;
   width: 50%;
   padding: 5px;
   height: 300px;
@@ -61,13 +71,6 @@ html{
   grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
   grid-gap: 3px;
   text-align: left;
-}
-
-.top-rowp1{
-  color: rgb(245,245,245);
-  font-size: 30px;
-  padding-top:10px;
-  padding-bottom: 10px;
 }
 
 .bottom-rowp1{
