@@ -182,6 +182,7 @@ body {
 .column {
   float: left;
   width: 33.33%;
+  align-content: center;
   padding: 5px;
 }
 
