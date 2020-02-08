@@ -192,6 +192,12 @@ body {
   display: table;
 }
 
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
 
   h2 {
     color: #202020;
