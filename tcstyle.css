@@ -8,37 +8,42 @@
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     background: #202020;
-    color: rgb(38,38,38);
+    color: rgb(245,245,245);
   }
 
-  .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
-  }
-  
   .homepage h1{
-    font-size: 40px;
-    text-transform: uppercase;
-    text-align: center;
+    font-size: 50px;
+    text-align: left;
     padding-top: 10px;
+    padding-left: 50px;
   }
   
   .second-row {
     overflow: hidden;
-    background-color: rgb(245,245,245);
+    background-color: rgb(38,38,38);
+    padding-right: 50px;
+    padding-bottom: 30px;
   }
 
   .second-row a {
-    float: left;
+    float: right;
     display: block;
-    color: rgb(38,38,38);
+    color: rgb(245,245,245);
     text-align: center;
-    padding: 14px 16px ;
+    padding-right: 20px ;
     text-decoration: none;
   }
 
   .second-row a:hover {
-    color: black;
+    color: rgb(211, 155, 2);
   }
+
+  .third-row{
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+  

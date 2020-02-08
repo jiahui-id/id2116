@@ -11,21 +11,15 @@ html{
   color: #e2e2e2;
 }
 
-.top-rowp1{
-  color: rgb(245,245,245);
-  font-size: 30px;
-  padding-top:10px;
-  padding-bottom: 10px;
+.middle-row{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.middle-row{
-  padding: 10px 10px 10px 10px;
-}
 .column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-  height: 300px;
+  flex: 50%;
+  padding: 10px;
 }
 
 .portfolio-img{
