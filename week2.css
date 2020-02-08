@@ -32,7 +32,7 @@ body {
   }
 
   #content {
-    padding-top: 100px;
+    padding-top: 200px;
     padding-left: 30px;
     }
 
@@ -44,13 +44,11 @@ body {
   #main {
     width: 800px;
     float: right; 
-  }
-
-  h1 {
     color: #020202;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 20px
   }
+  
 
   footer {
     clear: both;
