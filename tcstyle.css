@@ -8,20 +8,21 @@
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     background: #202020;
-    color: rgb(38,38,38);
+    color: rgb(245,245,245);
   }
 
   .homepage h1{
     font-size: 50px;
     text-align: left;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 50px;
   }
   
   .second-row {
     overflow: hidden;
     background-color: rgb(38,38,38);
-    padding-right: 20px;
+    padding-right: 50px;
+    padding-bottom: 30px;
   }
 
   .second-row a {
