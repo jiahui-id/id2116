@@ -32,7 +32,7 @@ body {
   }
 
   #content {
-    padding: 10px;
+    padding: 200px;
     }
 
   #nav {
@@ -45,6 +45,12 @@ body {
     float: right; 
   }
 
+  h1 {
+    color: #020202;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
+
   footer {
     clear: both;
     color: #202020;
@@ -52,13 +58,6 @@ body {
     height:80px;
   }
 
-
-  h1 {
-    color: #e2e2e2;
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-  }
 
   h2 {
     color: #e2e2e2;
