@@ -19,15 +19,7 @@ body {
     height: 350px;
     width: 350px;
   }
-  
 
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 200px;
-    width: 200px;
-  }
 
   #container {
     background-color: #e2e2e2;
@@ -203,9 +195,8 @@ body {
 
   h2 {
     color: #202020;
-    text-align: left;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   h3 {
