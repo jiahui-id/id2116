@@ -11,35 +11,38 @@
     color: rgb(38,38,38);
   }
 
-  .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
-  }
-  
   .homepage h1{
-    font-size: 40px;
-    text-transform: uppercase;
-    text-align: center;
+    font-size: 50px;
+    text-align: left;
     padding-top: 10px;
+    padding-left: 20px;
   }
   
   .second-row {
     overflow: hidden;
-    background-color: rgb(245,245,245);
+    background-color: rgb(38,38,38);
+    padding-right: 20px;
   }
 
   .second-row a {
     float: right;
     display: block;
-    color: rgb(38,38,38);
+    color: rgb(245,245,245);
     text-align: center;
     padding-right: 20px ;
     text-decoration: none;
-    justify-content: center;
   }
 
   .second-row a:hover {
     color: rgb(211, 155, 2);
   }
+
+  .third-row{
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+  
