@@ -181,10 +181,8 @@ body {
   /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 50%;
-  text-align: center;
+  width: 33.3%;
   padding: 5px;
-  padding-top: 100px;
 }
 
 /* Clear floats after image containers */
