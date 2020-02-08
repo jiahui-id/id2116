@@ -31,14 +31,15 @@
   }
 
   .second-row a {
-    float: left;
+    float: right;
     display: block;
     color: rgb(38,38,38);
     text-align: center;
-    padding: 14px 16px ;
+    padding-right: 20px ;
     text-decoration: none;
+    justify-content: center;
   }
 
   .second-row a:hover {
-    color: black;
+    color: rgb(211, 155, 2);
   }
