@@ -71,6 +71,11 @@ body {
     font-size: 20px;
   }
   
+  footer {
+    color: #e2e2e2;
+    display: block;
+  }
+
   nav {
     float: left;
     width: 30%;
