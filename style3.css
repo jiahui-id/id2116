@@ -23,7 +23,7 @@ body {
     margin-right: auto;
   }
 
-  ::content {
+  #content {
     padding: 10px
   }
 
