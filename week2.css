@@ -44,7 +44,10 @@ body {
   }
 
   footer {
-    clear: both
+    clear: both;
+    color: #202020;
+    font-size: 30px;
+    height:80px;
   }
 
 
