@@ -23,6 +23,8 @@ body {
 
   #container {
     background-color: #e2e2e2;
+    background-color:#202020;
+    font-family: 'Times New Roman', Times, serif;
     height: 600px;
     width: 1000px;
     margin-left: auto;
@@ -33,7 +35,7 @@ body {
     padding: 10px;
     }
 
-  #image {
+  #nav {
     width: 280px;
     float: left;
   }
