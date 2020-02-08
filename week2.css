@@ -19,7 +19,15 @@ body {
     height: 350px;
     width: 350px;
   }
+  
 
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+  }
 
   #container {
     background-color: #e2e2e2;
@@ -180,7 +188,7 @@ body {
 
   /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: left;
+  float: center;
   width: 33.33%;
   padding: 5px;
 }
@@ -194,10 +202,10 @@ body {
 
 
   h2 {
-    color: #e2e2e2;
+    color: #202020;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   h3 {
