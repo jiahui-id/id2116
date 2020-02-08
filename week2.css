@@ -16,6 +16,12 @@ body {
     margin-right: auto;
   }
 
+  div {
+    height: 200px;
+    width: 200px;
+    background-color: powderblue;
+  }
+
   #container {
     background-color: #202020;
     width: 800px;
