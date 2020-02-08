@@ -32,7 +32,8 @@ body {
   }
 
   #content {
-    padding: 200px;
+    padding-top: 100px;
+    padding-left: 30px;
     }
 
   #nav {
