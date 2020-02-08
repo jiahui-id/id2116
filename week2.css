@@ -21,12 +21,13 @@ body {
   }
   
 
-  img {
+  #img2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 200px;
     width: 200px;
+    text-align: center;
   }
 
   #container {
