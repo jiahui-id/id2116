@@ -38,7 +38,9 @@
   .second-third-row h6{
   font-size: 20px;
   text-align: center;
-  color: rgb(245,245,245)
+  color: rgb(245,245,245);
+  padding-top: 20px;
+  padding-bottom: 20px;
   }
 
   .third-row{
