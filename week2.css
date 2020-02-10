@@ -178,10 +178,11 @@ body {
   }
 
 
-  /* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-  float: center;
+  float: left;
   width: 33.33%;
+  align-content: center;
   padding: 5px;
 }
 
