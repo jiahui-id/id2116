@@ -12,9 +12,13 @@ body {
     }
     
     @font-face {
-    font-family: 'DK Kitsune Tail';
-    src: url('DK Kitsune Tail.eot');
-    }
+        font-family: DK_Kitsune;
+        src: url(https://www.urbanfonts.com/fonts/DK_Kitsune_Tail_Regular.font);
+      }
+      
+      div {
+        font-family: DK_Kitsune;
+      }
     
   
     img {
