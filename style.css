@@ -6,27 +6,48 @@
 
 html{
   font-size: 20px;
-  font-family: 'Optima';
-  background: #202020;
-  color: #e2e2e2;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(245,245,245);
 }
 
-.middle-row{
+.top-row {
+  align-content: center;
+}
+
+.second-row {
+  overflow: hidden;
+  background-color: rgb(245,245,245);
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.second-row a {
+  float: right;
+  display: block;
+  color: rgb(38, 38, 38);
+  text-align: center;
+  padding-right: 40px ;
+  text-decoration: none;
+}
+
+.second-row a:hover {
+  color: rgb(211, 155, 2);
+}
+
+.third-row h6{
+  font-size: 20px;
+  text-align: center;
+  color: rgb(245,245,245);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fourth-row{
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 40px;
-}
-
-.column {
-  flex: 50%;
-  padding: 10px;
-}
-
-.portfolio-img{
-  display: block;
-  margin-right: 5px;
 }
 
 .portfolio-description h6{
