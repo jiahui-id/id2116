@@ -11,6 +11,11 @@ body {
       height:60px;
     }
     
+    @font-face {
+    font-family: 'DK Kitsune Tail';
+    src: url('DK Kitsune Tail.eot');
+    }
+    
   
     img {
       display: block;
