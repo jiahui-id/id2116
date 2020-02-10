@@ -43,40 +43,27 @@ html{
 }
 
 .fourth-row{
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 40px;
+  display: block;
+  padding: 50px;
 }
 
-.portfolio-description h6{
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 300;
-  opacity: 50%;
-  color: #e2e2e2;
-}
-
-.portfolio-description h1{
-  font: verdana;
-  font-size: 35px;
-  font-style: bold;
-  color: #e2e2e2;
-  margin-top: 15px;
-  margin-bottom: 10px;
-}
 .portfolio-description p{
   text-align: justify;
-  opacity: 90%;
-}
-.section-heading{
-  text-align: left;
-  margin-top: 20px;
+  color: rgb(38, 38, 38);
+  padding: 60px;
 }
 
-.section-heading h1{
-  font-size: 25px;
+.row3{
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 20px;
+}
+
+.row3 h6{
+  font-size: 15px;
   text-transform: uppercase;
   margin-bottom: 20px;
   opacity: 80%;
