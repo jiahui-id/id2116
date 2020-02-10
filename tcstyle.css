@@ -52,6 +52,16 @@
     padding: 20px;
   }
   
+  .third-row {
+    position: relative;
+    width: 50%;
+  }
+  
+  .jiahui-img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
   .overlay {
     position: absolute;
     top: 0;
