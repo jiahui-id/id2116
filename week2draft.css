@@ -1,10 +1,10 @@
 body {
-    background: #c2c2c2;
+    background: rgb(245,245,245);
     }
     
     header {
       color: #202020;
-      background-color:#c2c2c2;
+      background-color: rgb(245,245,245);
       text-align: center;
       font-family: 'DKKitsuneTail-Regular';
       font-size: 30px;
