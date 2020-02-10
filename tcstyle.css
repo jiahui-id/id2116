@@ -7,15 +7,8 @@
   html{
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
-    background: #202020;
+    background: #e7e7e7;
     color: rgb(245,245,245);
-  }
-
-  .homepage h1{
-    font-size: 50px;
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 50px;
   }
   
   .second-row {
