@@ -53,8 +53,13 @@ html{
   padding: 60px;
 }
 
+.row2 h1{
+  font-size: 25px;
+}
+
 .row3{
   display: flex;
+  padding: 60px;
 }
 
 .column {
@@ -65,13 +70,6 @@ html{
 .row3 h6{
   font-size: 15px;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  opacity: 80%;
-}
-
-.strengths-text{
-  margin-top: 10px;
-  display: flex;
-  flex: 25%;
-  padding: 10px;
+  margin-bottom: 10px;
+  color: rgb(211, 155, 2);
 }
