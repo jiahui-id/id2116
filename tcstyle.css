@@ -75,7 +75,7 @@
     background-color: rgb(38, 38, 38);
   }
   
-  .container:hover .overlay {
+  .jiahui-img:hover .overlay {
     opacity: 1;
   }
   
