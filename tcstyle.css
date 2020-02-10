@@ -7,13 +7,13 @@
   html{
     font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
-    background: #e7e7e7;
+    background: rgb(245,245,245);
     color: rgb(245,245,245);
   }
   
   .second-row {
     overflow: hidden;
-    background: #e7e7e7;
+    background-color: rgb(245,245,245);
     padding-right: 50px;
     padding-bottom: 30px;
   }
@@ -21,7 +21,7 @@
   .second-row a {
     float: right;
     display: block;
-    color: rgb(245,245,245);
+    color: rgb(38, 38, 38);
     text-align: center;
     padding-right: 20px ;
     text-decoration: none;
