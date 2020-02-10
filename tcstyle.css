@@ -11,6 +11,10 @@
     color: rgb(245,245,245);
   }
   
+  .top-row {
+    align-content: center;
+  }
+
   .second-row {
     overflow: hidden;
     background-color: rgb(245,245,245);
