@@ -117,12 +117,17 @@ body {
       float: right; 
       color: rgb(38, 38, 38);
       font: "Helvetica Neue, san-serif";
-      font-size: 14px;
+      font-size: 20px;
       padding-top: 70px;
       padding-left: 0px;
       padding-right: 0px;
     }
   
+
+    h1 {
+      font: "Helvetica Neue, san-serif";
+      font-size: 25px
+    }
   
     /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
