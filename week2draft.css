@@ -33,7 +33,8 @@ body {
     .second-row a:hover {
       color: rgb(211, 155, 2);
     }
-  
+
+    
     .second-third-row h6{
     font-size: 20px;
     text-align: center;
@@ -41,12 +42,26 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     }
+
+
+    .second-third-row a {
+      float: right;
+      display: block;
+      color: rgb(38, 38, 38);
+      text-align: center;
+      padding-right: 40px ;
+      text-decoration: none;
+    }
+  
+    .second-third-row a:hover {
+      color: rgb(211, 155, 2);
+    }
   
     .third-row{
       display: flex;
     }
 
-    
+
   .column {
     flex: 50%;
     padding: 20px;
@@ -83,7 +98,7 @@ body {
         color: #202020;
         font-family: Helvetica;
         height: 600px;
-        width: 1100px;
+        width: 1000px;
         margin-left: auto;
         margin-right: auto;
         border-top: 1px solid  rgb(157, 157, 157);
