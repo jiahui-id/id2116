@@ -91,9 +91,6 @@ body {
       width: 460px;
     }
 
-    #p2 {
-        padding-right: 30px
-    }
 
     #container {
         background-color: rgb(245,245,245);
@@ -119,11 +116,11 @@ body {
       width: 600px;
       float: right; 
       color: rgb(38, 38, 38);
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 20px;
+      font: "Helvetica Neue, san-serif";
+      font-size: 14px;
       padding-top: 70px;
       padding-left: 0px;
-      padding-right: 20px;
+      padding-right: 0px;
     }
   
   
