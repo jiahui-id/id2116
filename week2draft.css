@@ -85,8 +85,8 @@ body {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      height: 400px;
-      width: 400px;
+      height: 430px;
+      width: 430px;
     }
 
     #p2 {
@@ -103,7 +103,7 @@ body {
         margin-right: auto;
         border-bottom: 1px solid  rgb(157, 157, 157);
     }
-    
+
   
     #nav {
       width: 180px;
