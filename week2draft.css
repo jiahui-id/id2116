@@ -118,18 +118,17 @@ body {
       font-family: Verdana,sans-serif;
       line-height: 1.5;
       font-size: 18px;
-      padding-top: 100px;
+      padding-top: 80px;
       padding-left: 20px;
       padding-right: 0px;
-      text-indent: 50px;
       text-align: left;
       letter-spacing: 3px;
     }
   
 
     h1 {
-      font: "Helvetica Neue, san-serif";
-      font-size: 25px
+      font: "Verdana,sans-serif";
+      font-size: 30px
     }
   
     /* Three image containers (use 25% for four, and 50% for two, etc) */
