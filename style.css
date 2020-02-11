@@ -80,3 +80,7 @@ html{
   margin-bottom: 10px;
   color: rgb(211, 155, 2);
 }
+
+.row3 p{
+  padding-left: 30px;
+}
