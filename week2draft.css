@@ -85,12 +85,12 @@ body {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      height: 350px;
-      width: 350px;
+      height: 400px;
+      width: 400px;
     }
 
     #p2 {
-        text-align: center;
+        padding-right: 30px
     }
 
     #container {
@@ -101,18 +101,9 @@ body {
         width: 1100px;
         margin-left: auto;
         margin-right: auto;
-        border-top: 1px solid  rgb(157, 157, 157);
+        border-bottom: 1px solid  rgb(157, 157, 157);
     }
 
-    #container2 {
-        background-color: rgb(245,245,245);
-        color: #202020;
-        font-family: Helvetica;
-        height: 600px;
-        width: 1100px;
-        margin-left: auto;
-        margin-right: auto;
-        border-top: 1px solid  rgb(157, 157, 157);
     }
   
     #nav {
