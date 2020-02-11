@@ -2,6 +2,14 @@ body {
     background: rgb(245,245,245);
     }
  
+      
+    html{
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      background: rgb(245,245,245);
+      color: rgb(245,245,245);
+  }
+
     .top-row {
       align-content: center;
     }
@@ -38,6 +46,25 @@ body {
       display: flex;
     }
 
+    
+  .column {
+    flex: 50%;
+    padding: 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(38, 38, 38);
+  }
+  
     
     img {
       display: block;
