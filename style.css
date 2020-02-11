@@ -60,13 +60,13 @@ html{
   border-width: 1px;
   border-bottom-color: rgb(38, 38, 38);
   padding: 5px;
-  padding-top: 40px;
+  padding-top: 60px;
   opacity: 80%;
 }
 
 .row3{
   display: flex;
-  padding: 40px 70px 0px 70px;
+  padding: 30px 50px 0px 70px;
 }
 
 .column {
