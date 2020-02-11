@@ -57,14 +57,16 @@ html{
   font-size: 20px;
   text-align: center;
   border-bottom-style: solid;
-  border-width: 5px;
+  border-width: 1px;
   border-bottom-color: rgb(38, 38, 38);
-  padding: 10px;
+  padding: 5px;
+  padding-top: 40px;
+  opacity: 80%;
 }
 
 .row3{
   display: flex;
-  padding: 60px;
+  padding: 20px 70px 0px 70px;
 }
 
 .column {
