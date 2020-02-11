@@ -1,16 +1,6 @@
 body {
     background: rgb(245,245,245);
     }
-    
-    header {
-      color: #202020;
-      background-color: rgb(245,245,245);
-      text-align: center;
-      font-family: 'DK_Kitsune';
-      font-size: 30px;
-      height:60px;
-    }
- 
  
     .top-row {
       align-content: center;
