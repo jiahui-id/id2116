@@ -48,15 +48,14 @@ html{
 }
 
 .portfolio-description p{
-  text-align: justify;
+  text-align: center;
   color: rgb(38, 38, 38);
-  padding: 60px;
-  align-content: center;
+  padding: 40px 70px 0px 70px;
 }
 
 .row2 h1{
   font-size: 25px;
-  padding: 60px;
+  padding: 10px;
 }
 
 .row3{
