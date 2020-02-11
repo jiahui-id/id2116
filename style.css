@@ -6,64 +6,72 @@
 
 html{
   font-size: 20px;
-  font-family: 'Optima';
-  background: #202020;
-  color: #e2e2e2;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(245,245,245);
 }
 
-.middle-row{
-  display: flex;
-  padding-top: 30px;
+.top-row {
+  align-content: center;
+}
+
+.second-row {
+  overflow: hidden;
+  background-color: rgb(245,245,245);
+  padding-right: 50px;
   padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 40px;
+}
+
+.second-row a {
+  float: right;
+  display: block;
+  color: rgb(38, 38, 38);
+  text-align: center;
+  padding-right: 40px ;
+  text-decoration: none;
+}
+
+.second-row a:hover {
+  color: rgb(211, 155, 2);
+}
+
+.third-row h6{
+  font-size: 20px;
+  text-align: center;
+  color: rgb(245,245,245);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fourth-row{
+  display: block;
+  padding: 50px;
+}
+
+.portfolio-description p{
+  text-align: justify;
+  color: rgb(38, 38, 38);
+  padding: 60px;
+  align-content: center;
+}
+
+.row2 h1{
+  font-size: 25px;
+  padding: 60px;
+}
+
+.row3{
+  display: flex;
+  padding: 60px;
 }
 
 .column {
-  flex: 50%;
-  padding: 10px;
-}
-
-.portfolio-img{
-  display: block;
-  margin-right: 5px;
-}
-
-.portfolio-description h6{
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 300;
-  opacity: 50%;
-  color: #e2e2e2;
-}
-
-.portfolio-description h1{
-  font: verdana;
-  font-size: 35px;
-  font-style: bold;
-  color: #e2e2e2;
-  margin-top: 15px;
-  margin-bottom: 10px;
-}
-.portfolio-description p{
-  text-align: justify;
-  opacity: 90%;
-}
-.section-heading{
-  text-align: left;
-  margin-top: 20px;
-}
-
-.section-heading h1{
-  font-size: 25px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  opacity: 80%;
-}
-
-.strengths-text{
-  margin-top: 10px;
-  display: flex;
   flex: 25%;
   padding: 10px;
+}
+
+.row3 h6{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: rgb(211, 155, 2);
 }
