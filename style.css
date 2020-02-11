@@ -50,7 +50,7 @@ html{
 .portfolio-description p{
   text-align: center;
   color: rgb(38, 38, 38);
-  padding: 40px 70px 0px 70px;
+  padding: 30px 70px 0px 70px;
 }
 
 .row2 h1{
@@ -66,7 +66,7 @@ html{
 
 .row3{
   display: flex;
-  padding: 20px 70px 0px 70px;
+  padding: 40px 70px 0px 70px;
 }
 
 .column {
@@ -79,8 +79,4 @@ html{
   text-transform: uppercase;
   margin-bottom: 10px;
   color: rgb(211, 155, 2);
-}
-
-.row3 p{
-  padding-left: 30px;
 }
