@@ -10,17 +10,45 @@ body {
       font-size: 30px;
       height:60px;
     }
-    
-    @font-face {
-        font-family: DK_Kitsune;
-        src: url(https://www.urbanfonts.com/fonts/DK_Kitsune_Tail_Regular.font);
-      }
-      
-      div {
-        font-family: DK_Kitsune;
-      }
-    
+ 
+ 
+    .top-row {
+      align-content: center;
+    }
   
+    .second-row {
+      overflow: hidden;
+      background-color: rgb(245,245,245);
+      padding-right: 50px;
+      padding-bottom: 30px;
+    }
+  
+    .second-row a {
+      float: right;
+      display: block;
+      color: rgb(38, 38, 38);
+      text-align: center;
+      padding-right: 40px ;
+      text-decoration: none;
+    }
+  
+    .second-row a:hover {
+      color: rgb(211, 155, 2);
+    }
+  
+    .second-third-row h6{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(245,245,245);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+  
+    .third-row{
+      display: flex;
+    }
+
+    
     img {
       display: block;
       margin-left: auto;
