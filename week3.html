@@ -55,9 +55,49 @@
             <div id="container2">
                 <div id="content">
               <div id="nav">
-                <script src="week3/BulbOn&Off/p5.js"></script>
-                <script src="week3/BulbOn&Off/p5.sound.min.js"></script>
-                <script src="week3/BulbOn&Off/sketch.js"></script>
+                <script>
+                  let sparkson;
+let sparksoff;
+
+let brightness = 0;
+
+function setup() {
+  createCanvas(400, 400);
+  sparkson = loadImage("week3/BulbOn&Off/images/bulb_off.png");
+  sparksoff = loadImage("week3/BulbOn&Off/images/bulb_on.png");
+}
+
+function draw() {
+  background(220);
+  imageMode(CENTER);
+  if (brightness==1) {
+    // (bulb,x pos,y pos,image width,image height)
+  image(sparkson,width/2,height/2,300,300);
+  } else {
+  image(sparksoff,width/2,height/2,300,300);
+  }
+}
+
+function on(){
+  // set brightness 1 : on
+  brightness = 1;
+}
+
+function off(){
+  // set brightness 0 : off
+  brightness = 0;
+}
+
+function mousePressed(){
+  //switch on the gif
+  on();
+}
+
+function mouseReleased(){
+  //switch off the gif
+  off();
+}
+                </script>
               </div>
               <div id="main">
                 <h1>FIRST APPROACH</h1> 
@@ -76,7 +116,7 @@
             <div id="container2">
                 <div id="content">
               <div id="nav">
-                <script src="week3/BulbOn&Off/"></script>
+                <script src="week3/BulbOn&Off/images/bulb_on.png"></script>
               </div>
               <div id="main">
                 <h1>SECOND APPROACH</h1> 
