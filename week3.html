@@ -55,49 +55,6 @@
             <div id="container2">
                 <div id="content">
               <div id="nav">
-                <script>
-                  let sparkson;
-let sparksoff;
-
-let brightness = 0;
-
-function setup() {
-  createCanvas(400, 400);
-  sparkson = loadImage("week3/BulbOn&Off/images/bulb_off.png");
-  sparksoff = loadImage("week3/BulbOn&Off/images/bulb_on.png");
-}
-
-function draw() {
-  background(220);
-  imageMode(CENTER);
-  if (brightness==1) {
-    // (bulb,x pos,y pos,image width,image height)
-  image(sparkson,width/2,height/2,300,300);
-  } else {
-  image(sparksoff,width/2,height/2,300,300);
-  }
-}
-
-function on(){
-  // set brightness 1 : on
-  brightness = 1;
-}
-
-function off(){
-  // set brightness 0 : off
-  brightness = 0;
-}
-
-function mousePressed(){
-  //switch on the gif
-  on();
-}
-
-function mouseReleased(){
-  //switch off the gif
-  off();
-}
-                </script>
               </div>
               <div id="main">
                 <h1>FIRST APPROACH</h1> 
@@ -126,7 +83,7 @@ function mouseReleased(){
                  <p>Difficulties faced: The GIF file stops playing when we do not click on it / We do not know how to map a click to a jump</p> 
                  
                  <h1>CODE ATTEMPT</h1>     
-                 <img src="" style= "padding-right: 200px;">
+                 <img src="week3/character javascript.png" style="width: 500px; height: 511px; padding-right: 200px;">
                </div>
               </div>
             </section>
