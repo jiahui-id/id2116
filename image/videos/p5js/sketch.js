@@ -39,7 +39,7 @@ let connectBtn;
 let disconnectBtn;
 
 function preload() {
-  videoSqueeze1 = createVideo("ID2116/image/videos/sound/squeeze1.avi");
+  videoSqueeze1 = createVideo("images/ss1.mp4");
   videoSqueeze2 = createVideo("images/squeeze2.mp4");
   videoSqueeze3 = createVideo("images/squeeze3.mp4");
   videoJump1 = createVideo("ID2116/image/videos/sound/jump1.avi");
