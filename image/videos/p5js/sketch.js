@@ -9,11 +9,18 @@ let vid = {
     this.state = "Squeeze";
     squeezeCount = squeezeCount + 1;
     print("squeeze count: " + squeezeCount);
+    if (squeezeCount > 3){
+      squeezeCount = 1
+    }
   },
+  
   Jump: function() {
     this.state = "Jump";
     jumpCount = jumpCount + 1;
     print("jump count: " + jumpCount);
+     if (jumpCount > 3){
+      jumpCount = 1
+    }
   },
 }
 
@@ -32,12 +39,12 @@ let connectBtn;
 let disconnectBtn;
 
 function preload() {
-  videoSqueeze1 = createVideo("images/squeeze1 mp4.mp4");
+  videoSqueeze1 = createVideo("image/videos/with sound/squeeze1.avi");
   videoSqueeze2 = createVideo("images/squeeze2.mp4");
-  videoSqueeze3 = createVideo("images/");
-  videoJump1 = createVideo("images/jump1 mp4.mp4");
+  videoSqueeze3 = createVideo("images/squeeze3.mp4");
+  videoJump1 = createVideo("image/videos/with sound/jump1.avi");
   videoJump2 = createVideo("images/jump2.mp4");
-  videoJump3 = createVideo("images/");
+  videoJump3 = createVideo("images/jump3.mp4");
 }
 
 function setup() {
