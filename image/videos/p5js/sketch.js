@@ -120,6 +120,7 @@ function handleData(data) {
       vid.Squeeze();
       if (squeezeCount === 1) {
         videoSqueeze1.play();
+        videoSqueeze1.pause();
       } else if (squeezeCount === 2) {
         videoSqueeze2.play();
       } else if (squeezeCount === 3) {
