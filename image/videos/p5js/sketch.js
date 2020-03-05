@@ -40,10 +40,10 @@ let disconnectBtn;
 
 function preload() {
   videoSqueeze1 = createVideo("images/ss1.mp4");
-  videoSqueeze2 = createVideo("images/squeeze2.mp4");
+  videoSqueeze2 = createVideo("images/ss2.mp4");
   videoSqueeze3 = createVideo("images/squeeze3.mp4");
-  videoJump1 = createVideo("ID2116/image/videos/sound/jump1.avi");
-  videoJump2 = createVideo("images/jump2.mp4");
+  videoJump1 = createVideo("images/jj1.mp4");
+  videoJump2 = createVideo("images/jj2.mp4");
   videoJump3 = createVideo("images/jump3.mp4");
 }
 
