@@ -41,10 +41,10 @@ let disconnectBtn;
 function preload() {
   videoSqueeze1 = createVideo("images/ss1.mp4");
   videoSqueeze2 = createVideo("images/ss2.mp4");
-  videoSqueeze3 = createVideo("images/squeeze3.mp4");
+  videoSqueeze3 = createVideo("images/ss3.mp4");
   videoJump1 = createVideo("images/jj1.mp4");
   videoJump2 = createVideo("images/jj2.mp4");
-  videoJump3 = createVideo("images/jump3.mp4");
+  videoJump3 = createVideo("images/jj3.mp4");
 }
 
 function setup() {
@@ -120,7 +120,6 @@ function handleData(data) {
       vid.Squeeze();
       if (squeezeCount === 1) {
         videoSqueeze1.play();
-        videoSqueeze1.pause();
       } else if (squeezeCount === 2) {
         videoSqueeze2.play();
       } else if (squeezeCount === 3) {
