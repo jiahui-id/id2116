@@ -59,8 +59,8 @@ function preload() {
   videoSqueeze2 = createVideo("images/ss2.mp4");
   videoSqueeze3 = createVideo("images/ss3.mp4");
   videoJump1 = createVideo("images/jj1_Trim.mp4");
-  videoJump2 = createVideo("images/jj2.mp4");
-  videoJump3 = createVideo("images/jj3.mp4");
+  videoJump2 = createVideo("images/jj2_Trim.mp4");
+  videoJump3 = createVideo("images/jj3_Trim.mp4");
 
   // imageHeart = loadImage(imageHeartFile);
   // imageRectangle = loadImage(imageRectangleFile);
