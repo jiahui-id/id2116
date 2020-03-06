@@ -14,12 +14,6 @@ body {
       align-content: center;
     }
   
-    .second-row {
-      overflow: hidden;
-      background-color: rgb(245,245,245);
-      padding-right: 50px;
-      padding-bottom: 30px;
-    }
   
     .second-row a {
       float: right;
