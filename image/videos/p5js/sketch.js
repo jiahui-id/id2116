@@ -41,8 +41,11 @@ let videoJump2;
 let videoJump3;
 
 let imageHeart;
+let imageHeartFile = "images/heart.jpg";
 let imageRectangle;
+let imageRectangleFile = "images/rectangle.jpg";
 let imageCircle;
+let imageCircleFile = "images/circle.jpg";
 
 let squeezeCount = 0;
 let jumpCount = 0;
@@ -59,9 +62,9 @@ function preload() {
   videoJump2 = createVideo("images/jj2.mp4");
   videoJump3 = createVideo("images/jj3.mp4");
 
-  imageHeart = loadImage("images/heart.jpg");
-  imageRectangle = loadImage("images/rectangle.jpg");
-  imageCircle = loadImage("images/circle.jpg");
+  imageHeart = loadImage(imageHeartFile);
+  imageRectangle = loadImage(imageRectangleFile);
+  imageCircle = loadImage(imageCircleFile);
 }
 
 function setup() {
@@ -174,11 +177,11 @@ function handleData(data) {
     if (val > -500) {
       vid.End();
       if (endCount === 1) {
-        imageHeart.show();
+        imageHeartFile.show();
       } else if (endCount === 2) {
-        imageRectangle.show();
+        imageRectangleFile.show();
       } else if (endCount === 3) {
-        imageCircle.show();
+        imageCircleFile.show();
       }
     }
   }
