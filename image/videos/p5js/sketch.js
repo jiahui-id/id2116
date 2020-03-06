@@ -24,11 +24,11 @@ let vid = {
   },
   End: function() {
     this.state = "End";
-    endCount = endCount + 1;
-    print("end count: " + endCount);
-     if (endCount > 3){
-      endCount = 1
-    }
+    // endCount = endCount + 1;
+    // print("end count: " + endCount);
+    //  if (endCount > 3){
+    //   endCount = 1
+    // }
   },
 }
 
@@ -49,7 +49,7 @@ let videoJump3;
 
 let squeezeCount = 0;
 let jumpCount = 0;
-let endCount = 0;
+// let endCount = 0;
 
 let connectBtn;
 let disconnectBtn;
@@ -58,7 +58,7 @@ function preload() {
   videoSqueeze1 = createVideo("images/ss1.mp4");
   videoSqueeze2 = createVideo("images/ss2.mp4");
   videoSqueeze3 = createVideo("images/ss3.mp4");
-  videoJump1 = createVideo("images/jj1.mp4");
+  videoJump1 = createVideo("images/jj1_Trim.mp4");
   videoJump2 = createVideo("images/jj2.mp4");
   videoJump3 = createVideo("images/jj3.mp4");
 
@@ -175,18 +175,6 @@ function handleData(data) {
   }
   if (vid.state === "Jump") {
     if (val > -500) {
-      vid.End();
-      if (jumpCount === 1) {
-        videoJump1.pause();
-      } else if (jumpCount === 2) {
-        videoJump2.puse();
-      } else if (jumpCount === 3) {
-        videoJump3.pause();
-      }
-    }
-  }
-  if (vid.state === "End") {
-      if (val > -500) {
       vid.Start();
       }
    }
