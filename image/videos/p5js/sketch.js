@@ -40,12 +40,12 @@ let videoJump1;
 let videoJump2;
 let videoJump3;
 
-let imageHeart;
-let imageHeartFile = "images/heart.jpg";
-let imageRectangle;
-let imageRectangleFile = "images/rectangle.jpg";
-let imageCircle;
-let imageCircleFile = "images/circle.jpg";
+// let imageHeart;
+// let imageHeartFile = "images/heart.jpg";
+// let imageRectangle;
+// let imageRectangleFile = "images/rectangle.jpg";
+// let imageCircle;
+// let imageCircleFile = "images/circle.jpg";
 
 let squeezeCount = 0;
 let jumpCount = 0;
@@ -62,9 +62,9 @@ function preload() {
   videoJump2 = createVideo("images/jj2.mp4");
   videoJump3 = createVideo("images/jj3.mp4");
 
-  imageHeart = loadImage(imageHeartFile);
-  imageRectangle = loadImage(imageRectangleFile);
-  imageCircle = loadImage(imageCircleFile);
+  // imageHeart = loadImage(imageHeartFile);
+  // imageRectangle = loadImage(imageRectangleFile);
+  // imageCircle = loadImage(imageCircleFile);
 }
 
 function setup() {
@@ -86,9 +86,9 @@ function setup() {
   videoJump2.hide();
   videoJump3.hide();
 
-  imageHeart.hide();
-  imageRectangle.hide();
-  imageCircle.hide();
+  // imageHeart.hide();
+  // imageRectangle.hide();
+  // imageCircle.hide();
 }
 
 function draw() {
@@ -114,15 +114,15 @@ function draw() {
       }
   }
 
-  if (vid.state === "End") {
-    if (endCount === 1) {
-      image(imageHeart, 0, 0, 1280,720);
-    } else if (endCount === 2) {
-      image(imageRectangle, 0, 0, 1280,720);
-    } else if (endCount === 3) {
-      image(imageCircle, 0, 0, 1280,720);
-    }
-}
+  // if (vid.state === "End") {
+  //   if (endCount === 1) {
+  //     image(imageHeart, 0, 0, 1280,720);
+  //   } else if (endCount === 2) {
+  //     image(imageRectangle, 0, 0, 1280,720);
+  //   } else if (endCount === 3) {
+  //     image(imageCircle, 0, 0, 1280,720);
+  //   }
+// }
 }
 
 //connect to micro:bit
@@ -177,11 +177,11 @@ function handleData(data) {
     if (val > -500) {
       vid.End();
       if (endCount === 1) {
-        imageHeartFile.show();
+        videoJump1.pause();
       } else if (endCount === 2) {
-        imageRectangleFile.show();
+        videoJump2.pause();
       } else if (endCount === 3) {
-        imageCircleFile.show();
+        videoJump3.pause();
       }
     }
   }
