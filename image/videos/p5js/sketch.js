@@ -22,14 +22,6 @@ let vid = {
       jumpCount = 1
     }
   },
-  End: function() {
-    this.state = "End";
-    endCount = endCount + 1;
-    print("end count: " + endCount);
-     if (endCount > 3){
-      endCount = 1
-    }
-  },
 }
 
 let videoSqueeze1;
@@ -40,13 +32,8 @@ let videoJump1;
 let videoJump2;
 let videoJump3;
 
-let imageHeart;
-let imageRectangle;
-let imageCircle;
-
 let squeezeCount = 0;
 let jumpCount = 0;
-let endCount = 0;
 
 let connectBtn;
 let disconnectBtn;
@@ -58,10 +45,6 @@ function preload() {
   videoJump1 = createVideo("images/jj1.mp4");
   videoJump2 = createVideo("images/jj2.mp4");
   videoJump3 = createVideo("images/jj3.mp4");
-
-  imageHeart = loadImage("images/heart.jpg");
-  imageRectangle = loadImage("images/rectangle.jpg");
-  imageCircle = loadImage("images/circle.jpg");
 }
 
 function setup() {
@@ -82,10 +65,6 @@ function setup() {
   videoJump1.hide();
   videoJump2.hide();
   videoJump3.hide();
-
-  imageHeart.hide();
-  imageRectangle.hide();
-  imageCircle.hide();
 }
 
 function draw() {
@@ -110,16 +89,6 @@ function draw() {
         image(videoJump3, 0, 0, 1280,720);
       }
   }
-
-  if (vid.state === "End") {
-    if (endCount === 1) {
-      image(imageHeart, 0, 0, 1280,720);
-    } else if (endCount === 2) {
-      image(imageRectangle, 0, 0, 1280,720);
-    } else if (endCount === 3) {
-      image(imageCircle, 0, 0, 1280,720);
-    }
-}
 }
 
 //connect to micro:bit
@@ -172,17 +141,6 @@ function handleData(data) {
   }
   if (vid.state === "Jump") {
     if (val > -500) {
-      if (endCount === 1) {
-        image(imageHeart, 0, 0, 1280,720);
-      } else if (endCount === 2) {
-        image(imageRectangle, 0, 0, 1280,720);
-      } else if (endCount === 3) {
-        image(imageCircle, 0, 0, 1280,720);
-      }
-    }
-  }
-  if (vid.state === "End") {
-      if (val > -500) {
       vid.Start();
       }
    }
