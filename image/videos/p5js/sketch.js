@@ -176,12 +176,11 @@ function handleData(data) {
   if (vid.state === "Jump") {
     if (val > -500) {
       vid.End();
-      if (endCount === 1) {
-        videoJump2.play();
-        videoJump2.pause();
-      } else if (endCount === 2) {
-        videoJump2.pause();
-      } else if (endCount === 3) {
+      if (jumpCount === 1) {
+        videoJump1.pause();
+      } else if (jumpCount === 2) {
+        videoJump2.puse();
+      } else if (jumpCount === 3) {
         videoJump3.pause();
       }
     }
