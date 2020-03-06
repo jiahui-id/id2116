@@ -174,11 +174,11 @@ function handleData(data) {
     if (val > -500) {
       vid.End();
       if (endCount === 1) {
-        imageHeart();
+        imageHeart.show();
       } else if (endCount === 2) {
-        imageRectangle();
+        imageRectangle.show();
       } else if (endCount === 3) {
-        imageCircle();
+        imageCircle.show();
       }
     }
   }
