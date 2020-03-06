@@ -177,7 +177,8 @@ function handleData(data) {
     if (val > -500) {
       vid.End();
       if (endCount === 1) {
-        videoJump1.pause();
+        videoJump2.play();
+        videoJump2.pause();
       } else if (endCount === 2) {
         videoJump2.pause();
       } else if (endCount === 3) {
